@@ -1,5 +1,3 @@
 <?php
 
-Route::get('/', function(){
-    return 'hello laravel!';
-});
+Route::get('/', 'PagesController@root')->name('root');
