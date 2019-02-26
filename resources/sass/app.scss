@@ -2,7 +2,6 @@
 @import 'Variables';
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-
 // Fontawesome
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
 @import "~@fortawesome/fontawesome-free/scss/regular";
@@ -59,5 +58,15 @@ body {
                 color: inherit;
             }
         }
+    }
+}
+
+/* User register page */
+.register-page {
+    img.captcha {
+        cursor: pointer;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        padding: 3px;
     }
 }
